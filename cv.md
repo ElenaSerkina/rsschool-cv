@@ -32,6 +32,10 @@ return a * b
 - RS School JS/FE Pre-School 2022
 - Build Responsive Real-World Websites with HTML and CSS ( [Udemi](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) )
 
+### Experience
+
+- CV template project for RS School ( [Project link](https://elenaserkina.github.io/rsschool-cv/cv) )
+
 ### Languages
 
 - _Russian_ - native speaker
