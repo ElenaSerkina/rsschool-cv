@@ -12,117 +12,123 @@
     <title>Elena Serkina CV</title>
   </head>
   <body>
-    <header>
-      <nav class="menu">
-        <ul class="nav">
-          <li><a href="#contacts">Contacts</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#languages">Languages</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#code-example">Code Example</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="cv">
-        <div class="left-column">
-          <div class="introduction">
-            <h1>Elena Serkina</h1>
-            <p>Junior Developer</p>
-            <img src="img/avatar.jpg" alt="Avatar" />
-          </div>
-          <div class="contacts" id="contacts">
-            <h2>Contacts</h2>
-            <ul>
-              <li>Phone: <a href="tel:+79111234567">+79111234567</a></li>
-              <li>
-                E-mail: <a href="mailto:elena@gmail.com">elena@gmail.com</a>
-              </li>
-              <li>
-                GitHub:
-                <a href="https://github.com/ElenaSerkina">ElenaSerkina</a>
-              </li>
-            </ul>
-          </div>
+    <div class="container">
+      <header>
+        <nav class="menu">
+          <ul class="nav">
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code-example">Code Example</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="cv">
+          <div class="left-column">
+            <div class="introduction">
+              <h1>Elena Serkina</h1>
+              <p>Junior Developer</p>
+              <img src="img/avatar.jpg" alt="Avatar" />
+            </div>
+            <div class="contacts" id="contacts">
+              <h2>Contacts</h2>
+              <ul>
+                <li>Phone: <a href="tel:+79111234567">+79111234567</a></li>
+                <li>
+                  E-mail: <a href="mailto:elena@gmail.com">elena@gmail.com</a>
+                </li>
+                <li>
+                  GitHub:
+                  <a href="https://github.com/ElenaSerkina">ElenaSerkina</a>
+                </li>
+              </ul>
+            </div>
 
-          <div class="about-me" id="about-me">
-            <h2>About Me</h2>
-            <p>
-              I am 31 years old Juniour Frontend Developer. I am from Saint
-              Petersburg. I’ve started my JS Pre School in December and plan to
-              become a professional web-developer.
-            </p>
+            <div class="about-me" id="about-me">
+              <h2>About Me</h2>
+              <p>
+                I am 31 years old Juniour Frontend Developer. I am from Saint
+                Petersburg. I’ve started my JS Pre School in December and plan
+                to become a professional web-developer.
+              </p>
+            </div>
+            <div class="languages" id="languages">
+              <h2>Languages</h2>
+              <ul>
+                <li>Russian - native speaker</li>
+                <li>English - C1</li>
+              </ul>
+            </div>
           </div>
-          <div class="languages" id="languages">
-            <h2>Languages</h2>
-            <ul>
-              <li>Russian - native speaker</li>
-              <li>English - C1</li>
-            </ul>
-          </div>
-        </div>
-        <div class="second-column">
-          <div class="education" id="education">
-            <h2>Education</h2>
-            <ul class="education-list">
-              <li>
-                <span>2021-2022</span>
-                <h4>RS School JS/FE Pre-School 2022</h4>
-              </li>
-              <li>
-                <span>2021</span>
-                <h4>Build Responsive Real-World Websites with HTML and CSS</h4>
-              </li>
-            </ul>
-          </div>
-          <div class="code-example" id="code-example">
-            <h2>Code example</h2>
-            <pre>
+          <div class="second-column">
+            <div class="education" id="education">
+              <h2>Education</h2>
+              <ul class="education-list">
+                <li>
+                  <span>2021-2022</span>
+                  <h4>RS School JS/FE Pre-School 2022</h4>
+                </li>
+                <li>
+                  <span>2021</span>
+                  <h4>
+                    Build Responsive Real-World Websites with HTML and CSS
+                  </h4>
+                </li>
+              </ul>
+            </div>
+            <div class="code-example" id="code-example">
+              <h2>Code example</h2>
+              <pre>
               <code>function getContents() {
                 // Getting inner HTML conents
                 var contents = document.getElementById("main").innerHTML;
-                alert(contents); // Outputs inner html contents
-              }
-              function setContents() {
-                // Setting inner HTML contents
-                var mainDiv = document.getElementById("main");
-                mainDiv.innerHTML = "";
-              }	</code>
-            </pre>
-          </div>
+                  alert(contents); // Outputs inner html contents
+                }
+                function setContents() {
+                  // Setting inner HTML contents
+                  var mainDiv = document.getElementById("main");
+                  mainDiv.innerHTML = "";
+                }	</code>
+              </pre>
+            </div>
 
-          <div class="skills" id="skills">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Git</li>
-            </ul>
-          </div>
-          <div class="projects" id="projects">
-            <h3>Projects</h3>
-            <a href="https://ElenaSerkina.github.io/rsschool-cv/"
-              >CV template project for RS School</a
-            >
+            <div class="skills" id="skills">
+              <h2>Skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <div class="projects" id="projects">
+              <h3>Projects</h3>
+              <a href="https://ElenaSerkina.github.io/rsschool-cv/"
+                >CV template project for RS School</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-    <footer>
-      <div class="footer">
-        <a href="https://github.com/ElenaSerkina" target="_blank">My GitHub</a>
-        <p>2022</p>
-        <a href="https://rs.school/js/" target="_blank"
-          ><img
-            class="rss-logo"
-            src="img/rs_school_js.svg"
-            alt="RS School logo"
-        /></a>
-      </div>
-    </footer>
+      <footer>
+        <div class="footer">
+          <a href="https://github.com/ElenaSerkina" target="_blank"
+            >My GitHub</a
+          >
+          <p>2022</p>
+          <a href="https://rs.school/js/" target="_blank"
+            ><img
+              class="rss-logo"
+              src="img/rs_school_js.svg"
+              alt="RS School logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

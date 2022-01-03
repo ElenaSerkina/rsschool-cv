@@ -51,22 +51,39 @@ a:hover {
 div {
   margin-top: 2rem;
 }
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  min-height: 100vh;
+  margin: auto;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
+  align-items: center;
 }
 .menu li {
   text-transform: uppercase;
 }
 .cv {
-  display: grid;
-  grid-template-columns: 40% 1fr;
-  grid-gap: 3rem;
+  display: flex;
+  gap: 3rem;
   padding: 2rem;
   background-color: #ffb4a2;
   max-width: 98%;
-  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.left-column {
+  max-width: 700px;
+}
+.second-column {
+  max-width: 995px;
 }
 
 .introduction {
